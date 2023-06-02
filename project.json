@@ -1,0 +1,183 @@
+{
+  "name": "Lap",
+  "description": "빈 프로세스",
+  "main": "07_RetryScope.xaml",
+  "dependencies": {
+    "Microsoft.Activities.Extensions": "[2.0.6.9]",
+    "UiPath.Excel.Activities": "[2.20.1]",
+    "UiPath.Mail.Activities": "[1.18.2]",
+    "UiPath.System.Activities": "[23.4.2]",
+    "UiPath.Testing.Activities": "[23.4.0]",
+    "UiPath.UIAutomation.Activities": "[23.4.4]",
+    "UiPath.WebAPI.Activities": "[1.16.2]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.4.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "CSharp",
+  "entryPoints": [
+    {
+      "filePath": "SampleSite.xaml",
+      "uniqueId": "37c81304-133b-4909-ae4f-06a507dcadb1",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "ACME.xaml",
+      "uniqueId": "db0f3045-5658-4f61-8c5c-30bbc2d89c93",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "MyCRM.xaml",
+      "uniqueId": "54156c8b-ef74-4232-a014-c5b2bee1e6ca",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "String.xaml",
+      "uniqueId": "3cc7c8c1-bbee-4ccb-a5a0-e67f96c082e1",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Dictionary.xaml",
+      "uniqueId": "92b65afc-dbd3-4e7e-b86c-f07d2afa8549",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Excel.xaml",
+      "uniqueId": "dd764cc9-db0a-4122-8a71-0a422b24ad07",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "NotepadSelector.xaml",
+      "uniqueId": "fc8c60b9-ad68-4139-b213-a4954f268497",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Naver.xaml",
+      "uniqueId": "36890e0d-30c6-4cef-baa4-f7ec06853248",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "List.xaml",
+      "uniqueId": "c7dc272d-891a-43f5-a068-9d5c6c27b625",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "FindExist.xaml",
+      "uniqueId": "33d3e679-3e9f-45b5-abab-5ee2cc5bb91a",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "RetryScope.xaml",
+      "uniqueId": "1370477f-9696-4e51-a959-4aa95098e6d0",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "01_Excel_3Steps.xaml",
+      "uniqueId": "9c95eb12-2bb4-4d9a-8a5e-f60cdd56d59f",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "03_Employee300.xaml",
+      "uniqueId": "1dce57bd-0323-4b13-af77-ec4df4f57fd2",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "05_FInd.xaml",
+      "uniqueId": "479f2e93-ba74-4cbe-92e0-419ec74d3df4",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "06_TryCatch.xaml",
+      "uniqueId": "a2757893-93e6-4f2c-b92c-b82021061c32",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "05_1_Find.xaml",
+      "uniqueId": "59f0c9bf-115e-4e17-a5f7-a821101bca76",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "09_InvokeWorkFlow.xaml",
+      "uniqueId": "b8529f08-05ab-49ce-a66a-a80d3bc51428",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "GetFakeNames.xaml",
+      "uniqueId": "4b8647a3-b496-416e-8aab-b51abaec4286",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "OpenAPI.xaml",
+      "uniqueId": "8c943a5e-caaa-46c1-b411-e1113088b400",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "04_Address.xaml",
+      "uniqueId": "443c3ff2-e4eb-43ef-b385-c3aef9d3beb9",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "07_RetryScope.xaml",
+      "uniqueId": "3687fccb-7698-4501-98bd-3451b74cdea7",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
